@@ -1,0 +1,33 @@
+# ===== SETTINGS FOR SCRIPT #2 =====
+
+# signal to analyse: smoothed or raw
+signal = smoothed
+
+# values below this (uV) are discarded
+min_uv = 0
+
+# values above this (uV) are discarded
+max_uv = 50
+
+# values further than this many SD from the rolling mean are discarded
+max_sd = 3
+
+# the rolling window (seconds) used for the mean, the SD and the replacement
+rolling_secs = 20
+
+# each part (left, right, both) lasts at least this long ( in seconds)
+min_part_secs = 240
+
+# number of seconds removed at the START of the recording (e.g. preparation)
+secondes_rejetees_debut = 0
+
+# number of seconds removed at the END of the  recording (e.g. removing the electrodes)
+secondes_rejetees_fin = 0
+
+# ===== SETTINGS FOR SCRIPT #3 =====
+
+# target range (uV) for the hand being trained
+trained_range = 20-30
+
+# target range (uV) for the other hand
+other_range = 0-10
