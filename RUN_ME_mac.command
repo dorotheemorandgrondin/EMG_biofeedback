@@ -7,6 +7,8 @@ echo "Hello! The pipeline is getting started. Please keep this window open."
 python3 -m pip install -r requirements.txt --quiet --disable-pip-version-check
 
 python3 1_organize.py
+python3 2_clean.py
+python3 3_compute.py
 
 echo ""
 echo "Pipeline finished."
