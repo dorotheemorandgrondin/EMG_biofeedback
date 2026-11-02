@@ -187,5 +187,4 @@ for session in sessions:
 metrics_wide = pd.DataFrame(wide_columns)
 metrics_wide.to_csv(results_folder/'metrics_wide.csv', sep=';', decimal=',', index=False, na_rep='NA')
 
-print(f'Done! results/metrics_long.csv ({len(metrics_long)} rows) and '
-      f'results/metrics_wide.csv ({len(metrics_wide)} participants)')
+print(f'Done!')
